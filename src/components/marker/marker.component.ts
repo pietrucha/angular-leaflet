@@ -4,7 +4,7 @@ import {Map, MouseEvent, Marker} from "leaflet";
 
 @Component({
     selector: "marker",
-    template: ("./marker.component.html"),
+    templateUrl: ("./src/components/marker/marker.component.html"),
     styles: [
         ("./marker.component.less"),
         ("../../styles/main.less")

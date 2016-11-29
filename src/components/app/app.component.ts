@@ -1,4 +1,4 @@
-import {Component, ViewChild} from "@angular/core";
+import {Component, ViewChild, OnInit} from "@angular/core";
 import {NavigatorComponent} from "../navigator/navigator.component";
 import {MarkerComponent} from "../marker/marker.component";
 import {MapService} from "../../services/map.service";
@@ -7,12 +7,12 @@ import {Location} from "../../core/location.class";
 
 @Component({
     selector: "app",
-    template: "./app.component.html",
+    templateUrl: "./src/components/app/app.component.html",
     styles: [("./app.component.less")
     ],
     providers: []
 })
-export class AppComponent {
+export class AppComponent implements OnInit  {
 
     @ViewChild(MarkerComponent) markerComponent: MarkerComponent;
 

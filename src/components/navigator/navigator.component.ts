@@ -6,7 +6,7 @@ import {Map} from "leaflet";
 
 @Component({
     selector: "navigator",
-    template: ("./navigator.component.html"),
+    templateUrl: ("./src/components/navigator/navigator.component.html"),
     styles: [
         ("./navigator.component.less"),
         ("../../styles/main.less")

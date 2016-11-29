@@ -64,3 +64,4 @@ typings
 *.js.map
 *.js
 !system.config.js
+.vscode
